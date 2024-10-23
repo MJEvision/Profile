@@ -1,12 +1,12 @@
-.box {
-  display: flex;
-  justify-content: center; /* 좌우 중앙 */
-  align-items: center; /* 위아래 중앙 */
-  text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  height: 100vh; /* 뷰포트 전체 높이를 차지하게 해서 중앙 정렬이 쉽게 가능하게 함 */
-}
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    height: 100vh;
+  }
 
 .stack {
   margin-left: 40px;
@@ -18,7 +18,15 @@
 }
 .react {
   position: relative;
-  top: 5px;
+  top: 30px;
+  animation: rotate_image 10s linear infinite;
+  transform-origin: -0.1% -0.1%;
+}
+
+@keyframes rotate_image{
+100% {
+    transform: rotate(360deg);
+  }
 }
 .instagram {
   margin-right: 100px;
@@ -26,3 +34,11 @@
 .github {
   margin-right: 100px;
 }
+.text-wrapper {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce;
+  animation-duration: 2s;
+}
+
