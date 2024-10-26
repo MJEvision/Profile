@@ -11,23 +11,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
-<body cz-shortcut-listen="true">
+<body>
   <div class="box">
     <div>
       <img src="./img/main.png" class="main">
-      <div class="label">
-        <div class="text-wrapper" id="simpleUsage">MJE</div>
+      <div>
+        <div class="text1" id="simpleUsage">MJE</div>
         <script>
-          document.addEventListener('DOMContentLoaded', ()=> {
-            new TypeIt('#simpleUsage')
-            .pause(1000)
-            .go();
-          })
+        new TypeIt("#simpleUsage", {
+        strings: "",
+        speed: 500,
+        waitUntilVisible: true,
+        }).go();
         </script>
       </div>
-      <div class="label">
-        <p class="a-front-end">
-          <span class="text-wrapper2" id="formElement">A front-end developer who lives for everyone <br>School: GBSW
+      <div>
+        <p>
+          <span class="text2" id="formElement">A front-end developer who lives for everyone <br>School: GBSW
             <sub>
               <a href="https://school.gyo6.net/gbsw/main.do?sysId=gbsw" target="_blank">
                 <img class="GBSW" src="./img/GBSW.svg" alt="GBSW">
@@ -36,11 +36,11 @@
             l'm learning to be a front-end developer...
             </span>
             <script>
-              document.addEventListener('DOMContentLoaded', ()=> {
-                new TypeIt('#formElement')
-                .pause(1000)
-                .go();
-              })
+            new TypeIt("#formElement", {
+            strings: "",
+            speed: 100,
+            waitUntilVisible: true,
+            }).go();
             </script>
             <ul class="stack">
               <li>
