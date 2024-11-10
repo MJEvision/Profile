@@ -19,14 +19,6 @@
 .react {
   position: relative;
   top: 30px;
-  animation: rotate_image 10s linear infinite;
-  transform-origin: -0.1% -0.1%;
-}
-
-@keyframes rotate_image{
-100% {
-    transform: rotate(360deg);
-  }
 }
 .instagram {
   margin-right: 100px;
@@ -34,11 +26,3 @@
 .github {
   margin-right: 100px;
 }
-.text-wrapper {
-  display: inline-block;
-  margin: 0 0.5rem;
-
-  animation: bounce;
-  animation-duration: 2s;
-}
-
