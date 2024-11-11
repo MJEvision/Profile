@@ -18,7 +18,7 @@
 }
 .react {
   position: relative;
-  top: 30px;
+  top: 5px;
 }
 .instagram {
   margin-right: 100px;
@@ -26,3 +26,7 @@
 .github {
   margin-right: 100px;
 }
+.text-wrapper {
+  display: inline-block;
+}
+
