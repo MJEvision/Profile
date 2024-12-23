@@ -20,9 +20,7 @@ function Profile() {
       </span>
       <ul class="stack">
               <li>
-                <div className="stacks">
                 <img className="coding" src={`${process.env.PUBLIC_URL}/images/coding.svg`} alt="coding" />
-                </div>
               </li>
               <li>
                 <img className="react" src={`${process.env.PUBLIC_URL}/images/react.svg`} alt="react" />
@@ -30,7 +28,7 @@ function Profile() {
             </ul>
             <div className="text3">l will also study the backend as needed</div>
             <div className='contact'>
-            <a href="https://www.instagram.com/mx_je08?igsh=Mjh6bHA4czZydDJl&utm_source=qr" target="_blank">
+            <a href="https://www.instagram.com/m._je2/" target="_blank">
               <img className="instagram" src={`${process.env.PUBLIC_URL}/images/instagram.svg`} alt="instagram" />
             </a>
             <a href="https://github.com/MJEvision" target="_blank">
