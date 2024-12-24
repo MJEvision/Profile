@@ -16,7 +16,7 @@ function Profile() {
           </a>
         </sub>
         <br />
-        I'm learning to be a front-end developer...
+        I'm learning to be a front-end developer
       </span>
       <ul class="stack">
               <li>
@@ -26,7 +26,7 @@ function Profile() {
                 <img className="react" src={`${process.env.PUBLIC_URL}/images/react.svg`} alt="react" />
               </li>
             </ul>
-            <div className="text3">l will also study the backend as needed</div>
+            <div className="text3">l will also study the backend as needed...</div>
             <div className='contact'>
             <a href="https://www.instagram.com/m._je2/" target="_blank">
               <img className="instagram" src={`${process.env.PUBLIC_URL}/images/instagram.svg`} alt="instagram" />
