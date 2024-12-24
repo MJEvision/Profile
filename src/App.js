@@ -16,7 +16,7 @@ function Profile() {
           </a>
         </sub>
         <br />
-        I'm learning to be a front-end developer
+        I'm learning to be a front-end developer...
       </span>
       <ul class="stack">
               <li>
